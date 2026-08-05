@@ -31,7 +31,7 @@
 
 ### 📊 GitHub Stats
 
-![Avinabh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AvinabhDutta-Dev&show_icons=true&theme=tokyonight&hide_border=true)
+!![Avinabh's GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AvinabhDutta-Dev&show_icons=true&theme=tokyonight&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AvinabhDutta-Dev&layout=compact&theme=tokyonight&hide_border=true)
 ---
 
