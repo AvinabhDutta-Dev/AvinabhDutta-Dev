@@ -29,12 +29,10 @@
 `Python` `PyTorch/Scikit-learn` `Transformers (IndicBART, MuRIL, XLM-R)` `RAG` `LangChain` `MATLAB` `Arduino/8085 μP` `Proteus`
 ---
 
-### 📊 Profile Summary & Domains
-
+### 📊 GitHub Stats
 <p align="left">
-  <strong>Domain:</strong> <kbd>NLP & AI Research</kbd> &nbsp;|&nbsp; 
-  <strong>Focus:</strong> <kbd>RAG & LLMs</kbd> &nbsp;|&nbsp; 
-  <strong>Open To:</strong> <kbd>AI / ML & Software Roles</kbd>
+  <img src="./stats-card.svg" width="48%" />
+  <img src="./languages-card.svg" width="48%" />
 </p>
 
 
