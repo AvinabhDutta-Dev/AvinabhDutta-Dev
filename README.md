@@ -29,12 +29,14 @@
 `Python` `PyTorch/Scikit-learn` `Transformers (IndicBART, MuRIL, XLM-R)` `RAG` `LangChain` `MATLAB` `Arduino/8085 μP` `Proteus`
 ---
 
-### 📊 GitHub Stats
+### 📊 Profile Summary & Domains
 
 <p align="left">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AvinabhDutta-Dev&show_icons=true&theme=tokyonight&hide_border=true" alt="Avinabh's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AvinabhDutta-Dev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://shields.io" alt="Domain">
+  <img src="https://shields.io" alt="Focus">
+  <img src="https://shields.io" alt="Open To">
 </p>
+
 
 
 ### 🌐 Find me elsewhere
