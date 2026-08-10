@@ -32,11 +32,10 @@
 ### 📊 Profile Summary & Domains
 
 <p align="left">
-  <img src="https://shields.io" alt="Domain" />
-  <img src="https://shields.io" alt="Focus" />
-  <img src="https://shields.io" alt="Open To" />
+  <strong>Domain:</strong> <kbd>NLP & AI Research</kbd> &nbsp;|&nbsp; 
+  <strong>Focus:</strong> <kbd>RAG & LLMs</kbd> &nbsp;|&nbsp; 
+  <strong>Open To:</strong> <kbd>AI / ML & Software Roles</kbd>
 </p>
-
 
 
 
