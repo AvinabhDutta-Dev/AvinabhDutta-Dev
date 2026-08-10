@@ -1,0 +1,23 @@
+name: Generate Profile Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily
+  workflow_dispatch: # Manual run
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Content
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          username: AvinabhDutta-Dev
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # ... (configuration options)
+      - name: Commit
+        run: |
+          git config --local user.email "action@github.com"
+          git commit -m "Updated stats"
+          git push
