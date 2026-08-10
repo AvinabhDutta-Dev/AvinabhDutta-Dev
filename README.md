@@ -32,10 +32,11 @@
 ### 📊 Profile Summary & Domains
 
 <p align="left">
-  <img src="https://shields.io" alt="Domain">
-  <img src="https://shields.io" alt="Focus">
-  <img src="https://shields.io" alt="Open To">
+  <img src="https://shields.io" alt="Domain" />
+  <img src="https://shields.io" alt="Focus" />
+  <img src="https://shields.io" alt="Open To" />
 </p>
+
 
 
 
