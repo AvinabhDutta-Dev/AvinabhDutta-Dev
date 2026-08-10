@@ -1,23 +1,45 @@
 name: Generate Profile Metrics
+
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily
-  workflow_dispatch: # Manual run
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch: # Allows manual trigger
+
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Grants the action permission to push files back to your repo
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate Content
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 1: Generate the Stats Card
+      - name: Generate Stats Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: AvinabhDutta-Dev
           token: ${{ secrets.GITHUB_TOKEN }}
-          # ... (configuration options)
-      - name: Commit
+          card: stats
+          username: AvinabhDutta-Dev
+          path: stats-card.svg
+          options: 'theme=tokyonight&hide_border=true&show_icons=true'
+
+      # Step 2: Generate the Languages Card
+      - name: Generate Languages Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: top-langs
+          username: AvinabhDutta-Dev
+          path: languages-card.svg
+          options: 'theme=tokyonight&hide_border=true&layout=compact'
+
+      # Step 3: Commit and Push the files back to the profile repository
+      - name: Commit and Push Assets
         run: |
           git config --local user.email "action@github.com"
-          git commit -m "Updated stats"
+          git config --local user.name "GitHub Action"
+          git add stats-card.svg languages-card.svg
+          git commit -m "Automated Profile Metrics Update" || echo "No changes to commit"
           git push
