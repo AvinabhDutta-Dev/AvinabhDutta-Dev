@@ -39,4 +39,4 @@
 
 ### 🌐 Find me elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/avinabhdutta06/) · [ORCID](https://orcid.org/0009-0006-3239-7665)
+[LinkedIn](https://www.linkedin.com/in/avinabhdutta06/) · [ORCID](https://orcid.org/0009-0006-3239-7665) · [Hugging Face](https://huggingface.co/AvinabhDutta-Dev)
