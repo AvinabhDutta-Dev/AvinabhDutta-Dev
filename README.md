@@ -7,8 +7,8 @@
 
 ### 🔭 What I'm working on
 
-- **Jonaki** — A RAG-based AI tutor for APSC exam aspirants, answering exclusively from verified past question papers with source citations, built for Assamese-medium students.
-- **Beyond BLEU** — A comparative study of Encoder-Decoder (IndicBARTSS, BanglaT5) vs. Decoder-Only (TigerLLM, Qwen2.5-1.5B) models for Bengali paraphrase generation, validating semantic-aware evaluation metrics against human judgment.
+- **Jonaki** — An Assamese-language AI tutor, currently a working prototype for Class 3–4 Environmental Science. It answers only from textbook content, cites its sources, and stays in Assamese (95% textbook-retrieval accuracy and no language mixing in the project evaluation). I'm working on extending the same architecture to APSC exam preparation. [Code](https://github.com/AvinabhDutta-Dev/jonaki)
+- **Beyond BLEU** — A comparison of four Bengali paraphrase models (BanglaT5 and IndicBARTSS fully fine-tuned, TigerLLM and Qwen2.5 with QLoRA), testing whether BLEU and other automatic metrics agree with an LLM judge. [Try the live demo](https://huggingface.co/spaces/AvinabhDutta-Dev/beyond-bleu-demo)
 ---
 
 ### 📄 Research
